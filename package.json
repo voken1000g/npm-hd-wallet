@@ -1,0 +1,29 @@
+{
+  "name": "@voken/hd-wallet",
+  "version": "1.0.0",
+  "description": "Voken HD Wallet(s), derive from a seed.",
+  "keywords": [
+    "wallet",
+    "voken",
+    "voken1000g",
+    "crypto",
+    "cryptography"
+  ],
+  "homepage": "https://github.com/voken1000g/npm-wallet",
+  "author": "@voken1000g",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voken1000g/npm-wallet"
+  },
+  "bugs": {
+    "url": "https://github.com/voken1000g/npm-wallet/issues"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "@voken/address": "^1.0.3",
+    "hdkey": "^2.0.1",
+    "safe-buffer": "^5.2.1"
+  },
+  "devDependencies": {}
+}
