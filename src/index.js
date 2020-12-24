@@ -13,6 +13,7 @@ const Wallet = function (seedBuffer) {
     const path = this._path(i)
     const hdKey = this.rootHDKey.derive(path)
     return {
+      index: i,
       path: path,
       hdKey: hdKey,
       address: vokenAddress.fromPublicKey(hdKey.publicKey)
