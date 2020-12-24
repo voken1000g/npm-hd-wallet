@@ -1,6 +1,6 @@
 {
   "name": "@voken/hd-wallet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Voken HD Wallet(s), derive from a seed.",
   "keywords": [
     "wallet",
