@@ -1,5 +1,5 @@
-const Buffer = require('safe-buffer').Buffer
 const HDKey = require('hdkey')
+const base32 = require('@voken/base32')
 const vokenAddress = require('@voken/address')
 
 const Wallet = function (seedBuffer) {
@@ -16,6 +16,8 @@ const Wallet = function (seedBuffer) {
       index: i,
       path: path,
       hdKey: hdKey,
+      vpriv: 'vpriv' + base32.encode(hdKey.privateKey),
+      vpub: 'vpub' + base32.encode(hdKey.publicKey),
       address: vokenAddress.fromPublicKey(hdKey.publicKey)
     }
   }
