@@ -1,6 +1,6 @@
 {
   "name": "@voken/hd-wallet",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "description": "Voken HD Wallet(s), derive from a seed.",
   "keywords": [
     "wallet",
@@ -21,7 +21,7 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "@voken/address": "^1.4.0",
+    "@voken/address": "^1.5.1",
     "@voken/base32": "^1.3.1",
     "hdkey": "^2.0.1"
   },
